@@ -1,0 +1,191 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-family: 'Genos', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(226, 223, 59);
+    width: 100%;
+}
+
+h3, p {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #706E6C;
+    padding-top: 30px;
+    text-align: center;
+}
+p {
+    font-family: 'Genos', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #706E6C;
+}
+h4 {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #706E6C;
+}
+
+li {
+    font-size: 1.5em;
+    list-style: none;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem; 
+    width: 100%;
+    border-bottom: 0.5px solid blue;
+}
+
+
+.navbar-link {
+font-size: 0.8rem;
+color: white;
+padding: 0.5rem;
+list-style: none;
+} 
+
+.title {
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-family: 'Michroma', sans-serif;
+    margin: 0.5rem
+}
+
+.navbar-link ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-link li {
+    list-style: none;
+}
+
+.navbar-link li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar li:hover {
+  color: #706E6C;  
+} 
+
+.toggle-button {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-link {
+        display: none;
+    }
+}
+
+
+
+
+
+
+#experience {
+    height: 400px;
+    width: 70%;
+    display: flex;
+    background-position: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1sIkQ7aHnGHSVRxrd3whgVwo9XbYEQvEYiQ&usqp=CAU");
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px auto;
+}
+
+.text-over {
+    width: 100%;
+    padding: auto;
+    text-align: center;
+    background-color: black;
+    opacity: 80%;
+
+}
+
+#featuredsound {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.albums {
+    text-align: center;
+}
+
+.pic h4 {
+    text-align: center;
+}
+
+#member-container {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+         
+}
+
+.band {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    
+} 
+ 
+.bandmate img {
+    width: 14rem;
+    height: 14rem;
+    
+} 
+
+footer #expand {
+    height: 5rem;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-top: 1px solid blue;
+    
+}
+
+footer {
+    line-height: 5px;
+}
+
